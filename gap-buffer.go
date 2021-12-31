@@ -24,8 +24,8 @@ func (g *GapBuffer) postGapStart() int {
 	return len(g.buffer) - g.postGapLen
 }
 
-// SetText initialises the buffer with the characters of the input string
-func (g *GapBuffer) SetText(s string) {
+// SetString initialises the buffer with the characters of the input string
+func (g *GapBuffer) SetString(s string) {
 
 	g.buffer = []rune(s)
 
@@ -34,8 +34,8 @@ func (g *GapBuffer) SetText(s string) {
 	g.postGapLen = len(g.buffer)
 }
 
-// GetText returns the text stored in the buffer
-func (g *GapBuffer) GetText() string {
+// GetString returns the text stored in the buffer
+func (g *GapBuffer) GetString() string {
 
 	// create a new rune slice and append the preGap and postGap slices to it before returning
 	text := append([]rune{}, g.buffer[:g.preGapLen]...)
