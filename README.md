@@ -92,3 +92,5 @@ func main() {
 	fmt.Println(gb.GetString())
 }
 ```
+
+The GIF example shown above is created using [skeeto/gap-buffer-animator](https://github.com/skeeto/gap-buffer-animator) 
