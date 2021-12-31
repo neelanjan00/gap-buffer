@@ -1,5 +1,7 @@
 # Gap Buffer Implementation in Go
 
+![Gap Buffer Example](example/example.gif)
+
 ## Overview
 This package provides a [Gap Buffer](https://en.wikipedia.org/wiki/Gap_buffer) data structure implementation for Go.
 
