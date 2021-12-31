@@ -7,6 +7,16 @@ This package provides a [Gap Buffer](https://en.wikipedia.org/wiki/Gap_buffer) d
 
 Gap Buffer data structure allows efficient insertion and deletion operations clustered near the same location. Gap buffers are especially common in text editors, where most changes to the text occur at or near the current location of the cursor. The text is stored in a large buffer in two contiguous segments, with a gap between them for inserting new text. Moving the cursor involves copying text from one side of the gap to the other (sometimes copying is delayed until the next operation that changes the text). Insertion adds new text at the end of the first segment; deletion deletes it.
 
+## Install Package
+```bash
+go get github.com/neelanjan00/gap-buffer
+```
+
+## Import Package
+```go
+import gapBuffer "github.com/neelanjan00/gap-buffer"
+```
+
 ## Operations
 The gap buffer implementation provides the following operations:
 
