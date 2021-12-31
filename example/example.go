@@ -3,13 +3,13 @@ package main
 import (
 	"fmt"
 
-	gapBuffer "github.com/neelanjan00/gap-buffer"
+	gapbuffer "github.com/neelanjan00/gap-buffer"
 )
 
 func main() {
 
 	// create a GapBuffer struct variable
-	gb := new(gapBuffer.GapBuffer)
+	gb := new(gapbuffer.GapBuffer)
 
 	// initialize a string to the buffer
 	gb.SetString("A Buffer")

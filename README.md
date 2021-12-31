@@ -1,4 +1,5 @@
 # Gap Buffer Implementation in Go
+[![Go Reference](https://pkg.go.dev/badge/github.com/neelanjan00/gap-buffer.svg)](https://pkg.go.dev/github.com/neelanjan00/gap-buffer)
 
 ![Gap Buffer Example](example/example.gif)
 
@@ -48,13 +49,13 @@ package main
 import (
 	"fmt"
 
-	gapBuffer "github.com/neelanjan00/gap-buffer"
+	gapbuffer "github.com/neelanjan00/gap-buffer"
 )
 
 func main() {
 
 	// create a GapBuffer struct variable
-	gb := new(gapBuffer.GapBuffer)
+	gb := new(gapbuffer.GapBuffer)
 
 	// initialize a string to the buffer
 	gb.SetString("A Buffer")
