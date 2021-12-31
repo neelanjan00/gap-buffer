@@ -1,5 +1,5 @@
 # Gap Buffer Implementation in Go
-[![GoDoc](https://godoc.org/github.com/neelanjan00/gap-buffer?status.svg)](https://godoc.org/github.com/neelanjan00/gap-buffer)
+[![Go Reference](https://pkg.go.dev/badge/github.com/neelanjan00/gap-buffer.svg)](https://pkg.go.dev/github.com/neelanjan00/gap-buffer)
 
 ![Gap Buffer Example](example/example.gif)
 
