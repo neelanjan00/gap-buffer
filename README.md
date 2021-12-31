@@ -15,7 +15,7 @@ go get github.com/neelanjan00/gap-buffer
 
 ## Import Package
 ```go
-import gapBuffer "github.com/neelanjan00/gap-buffer"
+import gapbuffer "github.com/neelanjan00/gap-buffer"
 ```
 
 ## Operations
