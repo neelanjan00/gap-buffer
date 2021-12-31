@@ -8,10 +8,10 @@ import (
 
 func main() {
 
-	// initialise a GapBuffer struct
+	// create a GapBuffer struct variable
 	gb := new(gapBuffer.GapBuffer)
 
-	// initialise a string to the buffer
+	// initialize a string to the buffer
 	gb.SetString("A Buffer")
 
 	// display the text from buffer
