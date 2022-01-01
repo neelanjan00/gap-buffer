@@ -113,7 +113,7 @@ func (g *GapBuffer) growGap() {
 // Insert inserts a single character at the cursor position
 func (g *GapBuffer) Insert(c rune) {
 
-	// grow the gap if necessary to so that insertion can take place at the start of the gap
+	// grow the gap if necessary so that insertion can take place at the start of the gap
 	if g.gapLen() == 0 {
 		g.growGap()
 	}
