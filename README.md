@@ -43,6 +43,7 @@ Backspace deletes a character immediately before the cursor.
 Insert inserts a single character at the cursor position.
 
 ## Example
+Run this example in [Go Playground](https://go.dev/play/p/0phxCYavuMR)
 ```go
 package main
 
